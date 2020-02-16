@@ -13,6 +13,16 @@ div.leftNav {
   }
 }
 
+div.mobileNav {
+  overflow: scroll;
+  overflow-y: scroll;
+  display: block;
+  background-color: $nav_background;
+  @include for-tablet-portrait-up {
+    display: none;
+  }
+}
+
 div.rightContent {
   width: 100%;
   @include for-tablet-portrait-up {

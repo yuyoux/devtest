@@ -23,8 +23,20 @@ a.nav__item:after {
   transition: 0.5s;
   color: #000;
 }
+
 a.nav__item:hover:after {
   width: 100%;
+}
+
+a.nav__item--smail {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: Bold;
+  color: $font_color;
+  letter-spacing: 2px;
+  border-bottom: 1px solid $font_color;
+  position: relative;
+  cursor: pointer;
 }
 
 li.nav__container {
