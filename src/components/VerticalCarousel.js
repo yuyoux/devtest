@@ -60,27 +60,27 @@ const VerticalCarousel = props => {
         <Container fluid>
           {item.altText === "Slide 1" ? (
             <Row className="banner1 text-left align-items-center">
-              <Col xs={6} className="px-5">
+              <Col xs={12} md={6} className="px-5">
                 <h2 className="title pb-2 pt-4 px-4">OUR SERVICES</h2>
                 <p className="lead content py-2 px-4">
                   The imaginative crafting of psycology, art, technology and
                   business to create beautiful ideas, products and services.
                 </p>
-                <Row className="justify-content-start px-4">
-                  <Col className="text-left " xs={4}>
+                <Row className="justify-content-start">
+                  <Col className="text-center" xs={3}>
                     <Media object src={Icon_Strategy} alt="Icon_Strategy" />
-                    <p className="banner__content ">
+                    <p className="banner__content text-center">
                       Branding,
                       <br /> Brand Strategy
                     </p>
                   </Col>
-                  <Col className="text-left" xs={4}>
+                  <Col className="text-center pl-0" xs={4}>
                     <Media object src={Icon_CRO} alt="Icon_CRO" />
                     <p className="banner__content">
                       Conversation <br /> Rate Optimisation
                     </p>
                   </Col>
-                  <Col className="text-left" xs={4}>
+                  <Col className="text-center pl-0 " xs={3}>
                     <Media object src={Icon_UXDesign} alt="Icon_UXDesign" />
                     <p className="banner__content">
                       UX, Design, <br /> Development
@@ -91,7 +91,7 @@ const VerticalCarousel = props => {
             </Row>
           ) : (
             <Row className="banner2 text-left align-items-center">
-              <Col xs={6} className="px-5">
+              <Col xs={12} md={6} className="px-5">
                 <h2 className="title pb-2 pt-5 px-4">Brand Strategy</h2>
                 <p className="lead content py-2 px-4">
                   Our brand development process merges traditional brand

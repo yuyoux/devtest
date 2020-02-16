@@ -8,7 +8,7 @@ const ThirdComponent = props => {
   return (
     <Container fluid className="thirdcompo">
       <Row>
-        <Col xs={6} className="px-5 py-5 text-left">
+        <Col xs={12} md={6} className="px-5 py-5 text-left">
           <h2 className="title pb-2 pt-5 px-4">
             Brand <br />
             Development
@@ -31,7 +31,7 @@ const ThirdComponent = props => {
             </a>
           </div>
         </Col>
-        <Col xs={6} className="px-0">
+        <Col xs={12} md={6} className="px-0">
           <img
             src={Image}
             alt="DigitalBusiness"

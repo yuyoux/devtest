@@ -1,0 +1,31 @@
+@import "../styles/_mixins";
+@import "../styles/_variables";
+
+div.footer {
+  background-color: black;
+  height: 150px;
+}
+
+a.social {
+  display: inline-block;
+  position: relative;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid #3f4046;
+  margin: 0 10px;
+}
+
+.fab {
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
+
+.fab:hover {
+  color: $hover;
+  transition: color 0.5s linear;
+}

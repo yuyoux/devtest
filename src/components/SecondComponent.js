@@ -7,14 +7,14 @@ const SecondComponent = props => {
   return (
     <Container fluid className="secondcompo">
       <Row>
-        <Col xs={6} className="px-0">
+        <Col xs={12} md={6} className="px-0">
           <img
             src={Image}
             alt="DigitalBusiness"
             style={{ width: "100%", height: "100%" }}
           ></img>
         </Col>
-        <Col xs={6} className="px-5 py-5 text-left">
+        <Col xs={12} md={6} className="px-5 py-5 text-left">
           <h2 className="title pb-2 pt-4 px-4">
             Digital Business
             <br /> Strategy

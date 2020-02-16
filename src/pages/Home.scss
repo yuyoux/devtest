@@ -2,16 +2,22 @@
 @import "../styles/_variables";
 
 div.leftNav {
-  width: 11.5%;
-  position: fixed;
-  overflow: scroll;
-  overflow-y: scroll;
-  display: block;
-  background-color: $nav_background;
+  display: none;
+  @include for-tablet-portrait-up {
+    width: 11.5%;
+    position: fixed;
+    overflow: scroll;
+    overflow-y: scroll;
+    display: block;
+    background-color: $nav_background;
+  }
 }
 
 div.rightContent {
-  width: 88.5%;
-  margin-left: 11.5%;
-  background-color: $background;
+  width: 100%;
+  @include for-tablet-portrait-up {
+    width: 88.5%;
+    margin-left: 11.5%;
+    background-color: $background;
+  }
 }

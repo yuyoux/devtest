@@ -6,6 +6,7 @@ import SecondComponent from "../components/SecondComponent";
 import ThirdComponent from "../components/ThirdComponent";
 import Contact from "../components/Contact";
 import VerticalCarousel from "../components/VerticalCarousel";
+import Footer from "../components/Footer";
 
 const Home = props => {
   return (
@@ -19,6 +20,7 @@ const Home = props => {
         <SecondComponent />
         <ThirdComponent />
         <Contact />
+        <Footer />
       </div>
     </div>
   );
