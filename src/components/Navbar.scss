@@ -2,10 +2,32 @@
 @import "../styles/_variables";
 
 a.nav__item {
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-size: 12px;
   font-weight: Bold;
   color: $font_color;
   letter-spacing: 2px;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid $font_color;
+  position: relative;
+  cursor: pointer;
+  width: 80%;
+}
+
+a.nav__item:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  border-bottom: 2px solid #000;
+  transition: 0.5s;
+  color: #000;
+}
+a.nav__item:hover:after {
+  width: 100%;
+}
+
+li.nav__container {
+  padding-bottom: 19px;
+  margin-bottom: 5px;
 }

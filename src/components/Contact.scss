@@ -1,0 +1,19 @@
+@import "../styles/_mixins";
+@import "../styles/_variables";
+
+div.contactcompo {
+  background-color: $contact_background;
+}
+
+p.contact__content {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: $font_color;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+input.form-control {
+  height: calc(2.5em + 0.75rem + 2px);
+}

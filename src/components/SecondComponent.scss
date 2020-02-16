@@ -1,0 +1,42 @@
+@import "../styles/_mixins";
+@import "../styles/_variables";
+
+div.secondcompo {
+  background-color: $nav_background;
+}
+
+h2.title {
+  font-family: kepler-std-semicondensed-dis, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+
+p.content {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  color: $font_color;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+a.hyplink {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: Bold;
+  color: black;
+  letter-spacing: 2px;
+  border-bottom: 2px solid black;
+  padding: 5px;
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+a.hyplink:hover {
+  color: black;
+  border-top: 2px solid black;
+  text-decoration: none;
+}
