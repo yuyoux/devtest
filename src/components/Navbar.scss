@@ -1,0 +1,11 @@
+@import "../styles/_mixins";
+@import "../styles/_variables";
+
+a.nav__item {
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-weight: Bold;
+  color: $font_color;
+  letter-spacing: 2px;
+  border-bottom: 1px solid #999;
+}

@@ -1,15 +1,17 @@
-import React, { Fragment } from "react";
-import { Button, Row, Col } from "reactstrap";
-import "./Home.sass";
+import React from "react";
+import "./Home.scss";
+import Logo from "../assests/LOGO_Big_RGB.png";
+import NavBig from "../components/Navbar";
 
 const Home = props => {
   return (
-    <Fragment>
-      <Row>
-        <Col md={2}>nav</Col>
-        <Col md={10}>content</Col>
-      </Row>
-    </Fragment>
+    <div>
+      <div className="leftNav text-center px-3">
+        <img src={Logo} alt="Logo" className="py-5"></img>
+        <NavBig></NavBig>
+      </div>
+      <div className="rightContent">content</div>
+    </div>
   );
 };
 

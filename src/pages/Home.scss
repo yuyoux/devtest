@@ -1,0 +1,17 @@
+@import "../styles/_mixins";
+@import "../styles/_variables";
+
+div.leftNav {
+  width: 10%;
+  position: fixed;
+  overflow: scroll;
+  overflow-y: scroll;
+  display: block;
+  background-color: $nav_background;
+}
+
+div.rightContent {
+  width: 90%;
+  margin-left: 10%;
+  background-color: $background;
+}
