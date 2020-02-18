@@ -38,8 +38,8 @@ div.verticalCarousel .carousel-item-prev.carousel-item-right {
 
 div.verticalCarousel .carousel-item-next,
 div.verticalCarousel .active.carousel-item-right {
-  -webkit-transform: translate3d(0, -100%, 0);
-  transform: translate3d(0, -100%, 0);
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
 }
 
 div.verticalCarousel .carousel-item-prev,
@@ -49,24 +49,45 @@ div.verticalCarousel .active.carousel-item-left {
 }
 
 div.container-fluid {
+  width: 100%;
   height: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 div.carousel-inner {
+  width: 100%;
   height: 100%;
 }
 div.carousel-item {
+  width: 100%;
   height: 100%;
+}
+
+*:focus {
+  outline: none !important;
 }
 
 div.banner1 {
   background-image: url("../assests/HeroImage_OurServices.jpg");
+  background-size: cover;
   height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 div.banner2 {
   background-image: url("../assests/HeroImage_BrandStrategy.jpg");
+  background-size: cover;
   height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 p.banner__content {

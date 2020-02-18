@@ -17,3 +17,9 @@ p.contact__content {
 input.form-control {
   height: calc(2.5em + 0.75rem + 2px);
 }
+
+input.form-control::-webkit-input-placeholder {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: $font_color;
+}

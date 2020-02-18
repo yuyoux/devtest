@@ -7,7 +7,7 @@ const SecondComponent = props => {
   return (
     <Container fluid className="secondcompo">
       <Row>
-        <Col xs={12} md={6} className="px-0">
+        <Col xs={12} md={6}>
           <img
             src={Image}
             alt="DigitalBusiness"
