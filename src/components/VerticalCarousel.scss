@@ -50,6 +50,8 @@ div.verticalCarousel .active.carousel-item-left {
 
 div.container-fluid {
   height: 100%;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 div.carousel-inner {
@@ -62,11 +64,21 @@ div.carousel-item {
 div.banner1 {
   background-image: url("../assests/HeroImage_OurServices.jpg");
   height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 div.banner2 {
   background-image: url("../assests/HeroImage_BrandStrategy.jpg");
   height: 100%;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 p.banner__content {
