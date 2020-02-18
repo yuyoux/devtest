@@ -61,7 +61,7 @@ const VerticalCarousel = props => {
           {item.altText === "Slide 1" ? (
             <Row className="banner1 text-left align-items-center">
               <Col xs={12} md={6} className="px-5">
-                <h2 className="title pb-2 pt-4 px-4">OUR SERVICES</h2>
+                <h2 className="title pb-2 pt-4 px-4">Our Services</h2>
                 <p className="lead content py-2 px-4">
                   The imaginative crafting of psycology, art, technology and
                   business to create beautiful ideas, products and services.

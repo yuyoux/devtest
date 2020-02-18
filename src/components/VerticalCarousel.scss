@@ -64,6 +64,10 @@ div.carousel-item {
   height: 100%;
 }
 
+*:focus {
+  outline: none !important;
+}
+
 div.banner1 {
   background-image: url("../assests/HeroImage_OurServices.jpg");
   background-size: cover;

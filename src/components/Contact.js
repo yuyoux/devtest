@@ -15,7 +15,7 @@ const Contact = props => {
           </p>
           <Row className="justify-content-center">
             <Col xs={10} className="py-4 text-center">
-              <Input placeholder="enter your email address..." />
+              <Input placeholder="Enter your email address..." />
             </Col>
           </Row>
           <div className="py-4">
